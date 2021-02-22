@@ -7,7 +7,6 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   align-items: stretch;
-  border: 3px solid #fff;
 `;
 
 export const Content = styled.main`
@@ -15,18 +14,17 @@ export const Content = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 3px solid green;
   width: 100%;
   max-width: 700px;
 
   form {
-    margin: 80px 0;
+    margin: 30px 0 20px;
     max-width: 340px;
     text-align: center;
 
     h1 {
       margin-bottom: 24px;
-      font-size: 40px;
+      font-size: 30px;
     }
 
     input {
