@@ -7,11 +7,13 @@ export const appStyles = {
   red: "#c53030",
   white: "#fff",
   bdRadiusDefault: "10px",
-  btnHeightDefault: "60px",
+  btnHeightDefault: "56px",
   paddingDefault: "30px",
+  transitionTime: ".2s",
+  opacityHover: ".2",
   fonts: {
     sizeDefault: "16px",
-    robotoRegular: "RobotoSlab-Regular",
-    robotoMedium: "RobotoSlab-Medium",
+    robotoSlab: "Roboto Slab",
+    bold: "500",
   },
 }

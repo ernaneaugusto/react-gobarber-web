@@ -16,16 +16,33 @@ export default createGlobalStyle`
   }
 
   body, input, button, a {
-    font-family: ${appStyles.fonts.robotoRegular};
+    font-family: ${appStyles.fonts.robotoSlab}, sans-serif;
     font-size: ${appStyles.fonts.sizeDefault};
   }
 
   h1, h2, h3, h4, h5, h6, strong {
-    font-weight: ${appStyles.fonts.robotoMedium};
+    font-family: ${appStyles.fonts.robotoSlab}, sans-serif;
+    font-weight: ${appStyles.fonts.bold};
   }
   
   button, a {
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: ${appStyles.transitionTime} ease-in-out all;
+
+    &:hover svg {
+      color: inherit;
+    }
+
+    svg {
+      margin-left: 6px;
+      margin-right: 6px;
+      vertical-align: middle;
+      color: inherit;
+    }
   }
 
   img {
